@@ -163,3 +163,6 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
+
+// DB_USER=pedalPalsUser
+// DB_PASS=y8rn8q7XIBPWcy2k
