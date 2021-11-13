@@ -90,7 +90,7 @@ async function run() {
             const options = { upsert: true };
             const updateDoc = {
                 $set: {
-                    status: 'approved',
+                    status: 'shipped',
                 },
             };
             const result = await purchaseCollection.updateOne(filter, updateDoc, options);
